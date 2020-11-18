@@ -31,6 +31,7 @@ header {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 div {
@@ -45,8 +46,28 @@ section {
 
 p {
   text-align: center;
+  color: rgba(255, 255, 255, .7);
 }
 
 svg {
+fill: #fff;
+}
 
+.btn {
+  border: solid .2rem #fff;
+  padding: .5rem 1rem;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #ff5e3a;
+}
+
+@media only screen and (min-width: 38em){
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
 }
