@@ -34,7 +34,6 @@ h2 {
   font-size: 2rem;
   margin: 1rem;
   margin-bottom: .5rem;
-  /* padding-top: 1rem; */
 }
 
 h3 {
@@ -85,7 +84,6 @@ a:hover {
   section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5rem;
-    /* padding: 6vmin; */
     padding-top: 0;
     margin: 1.7rem;
     margin-top: 0;
@@ -117,6 +115,7 @@ a:hover {
   .icon svg {
     width: 9rem;
   }
+
   .icon {
     margin-left: 1rem;
   }
